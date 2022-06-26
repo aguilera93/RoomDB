@@ -1,5 +1,6 @@
 package aguilera.code.roomdb
 
+import aguilera.code.roomdb.databinding.ActivityAddEventBinding
 import aguilera.code.roomdb.databinding.ActivityMainBinding
 import aguilera.code.roomdb.databinding.ActivityMainBinding.inflate
 import aguilera.code.roomdb.databinding.EventRvItemBinding
@@ -10,13 +11,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 
 class AddEventActivity : AppCompatActivity() {
-    private lateinit var binding: Bin
+    private lateinit var binding: ActivityAddEventBinding
     lateinit var viewModal: EventViewModel
     var eventID = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = AddEventActivityBinding.inflate(layoutInflater)
+        binding = ActivityAddEventBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // initializes the viewmodel.

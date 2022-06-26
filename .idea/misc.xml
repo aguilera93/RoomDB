@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sergio/AndroidStudioProjects/RoomDB/app/src/main/res/drawable/ic_delete.xml" value="0.112" />
+        <entry key="..\:/Users/Sergio/AndroidStudioProjects/RoomDB/app/src/main/res/layout/activity_add_event.xml" value="0.17119565217391305" />
         <entry key="..\:/Users/Sergio/AndroidStudioProjects/RoomDB/app/src/main/res/layout/activity_main.xml" value="0.17119565217391305" />
         <entry key="..\:/Users/Sergio/AndroidStudioProjects/RoomDB/app/src/main/res/layout/event_rv_item.xml" value="0.17119565217391305" />
       </map>
